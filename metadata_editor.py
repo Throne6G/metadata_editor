@@ -29,7 +29,7 @@ def process_dir(root_dir: str, out_dir: str, created_datetime:datetime or None=N
 def process_file(root_dir: str, out_dir: str, created_datetime:datetime or None=None, last_modified_datetime: datetime or None=None, author: str or None=None):
     if root_dir.endswith('.doc') or root_dir.endswith('.docx'):
         edit_doc(root_dir, out_dir, created_datetime, last_modified_datetime, author)
-c
+
 def generate_datetime_for_docx_custom_logic():
     '''
     If you need custom logic to generate datetime, you can write that logic in this function
