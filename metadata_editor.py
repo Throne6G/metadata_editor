@@ -58,5 +58,4 @@ def generate_datetime_for_docx_custom_logic():
 if __name__ == "__main__":
     in_path = ""
     out_path = ""
-    date = datetime(year=year, month=month, day=day, hour=hour, minute=minute, second=second)
     process_dir(in_path, out_path, date, date)
